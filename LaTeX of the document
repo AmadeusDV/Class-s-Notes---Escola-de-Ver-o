@@ -1,0 +1,201 @@
+\documentclass[12pt]{paper}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}   % if you want the fonts
+\usepackage{amssymb}    % if you want extra symbols
+\usepackage{latexsym}
+\usepackage{enumerate}
+\usepackage{graphicx}   % need for figures
+\usepackage[bottom=2.5cm,top=2.5cm,left=2.0cm,right=2.0cm]{geometry}
+\usepackage{xcolor}
+\usepackage{bm}
+\usepackage{secdot}		
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr, lastpage}
+\usepackage{hyperref}
+\hypersetup{
+        colorlinks=true,
+        linkcolor=black,
+        urlcolor=red,
+        pdftitle={Notas de aula - Escola de Verão},
+        }
+\usepackage{titlesec}
+\titleformat{\section}{\normalsize\bfseries}{\thesection.}{1em}{}	% required for heading numbering style
+\titleformat*{\subsection}{\normalsize\bfseries}
+
+\usepackage{tocloft} % change typeset, titles, and format list of appendices/figures/tables
+
+%% Preamble %%
+
+\begin{document}
+    
+%% CAPA %%
+
+\begin{titlepage}
+        \begin{figure}[H]
+            \begin{flushright}
+                \includegraphics[width=9cm]{canto.png}
+            \end{flushright}
+        \end{figure}
+
+    \begin{flushright}
+        \LARGE{\textbf{Notas de aula}}
+        \hspace{400pt}
+        \LARGE{\textbf{XXV Escola de Verão - 2024}}
+        \hspace{300pt}
+        \LARGE{\textbf{Introdução á Análise}}
+        \vfill
+        \large{Autor: Amadeus Dal Vesco} \\
+        \hspace{300pt}
+        \\ \large{Professor: Camilo Campana}
+        \vfill
+        \LARGE{09 de Janeiro á 09 de Fevereiro, 2024}
+    \end{flushright}
+\end{titlepage}
+
+\newpage
+
+%% MOTIVAÇÃO %%
+
+    \begin{center}
+            \textbf{Motivação}
+    \end{center}
+
+Bom, a minha motivação por trás deste documento que contém as notas de aula da Escola de Verão de Matemática da UFSC, acerca do curso: Introdução á Análise, é simplesmente...
+
+
+\newpage
+
+%% SUMÁRIO %%
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+
+
+\newpage
+
+%% CAPÍTULO 1 %%
+
+\section{Supremos e Ínfimos}
+
+\textbf{Definição:}
+
+Primeiramente, temos que definir a nossa região de domínio.
+
+\begin{enumerate}
+        \item Seja $\mathbb{R}$ o conjunto dos números reais. X é um conjunto qualquer, tal que X $\subset$ $\mathbb{R}$, sendo que X é um conjunto não vazio, ou seja, X $\neq \emptyset$. 
+        
+Com isso, agora podemar começar a definir o que são supremos e ínfimos:
+
+    \begin{enumerate}
+        \item Diz-se que \textit{x} é limitado superiormente se existe b $\in \mathbb{R}$, tal que \textit{x} $\leq$ b, $\forall$ \textit{x} $\in$ X.
+
+    \textbf{Exemplo 1:} X = $(-\infty, 0] \ \bigcup \ \{1,2,3\}$; $b=4$ é cota superior.
+
+    \textbf{Exemplo 1.1:} X = $[0, + \infty)$. Não existe cota superior para este conjunto, pois X não pode ser limitado superiormente por nenhum elemento b $\in \mathbb{R}$, tal que \textit{x} $\leq$ b.
+
+Com isto, somos capazes de construir uma ideia análoga como de uma limitação inferior.
+
+    \item X $\subset \ \mathbb{R}$, X $\neq \emptyset$ e é limitado inferiormente se $\exists$ a $\in \mathbb{R}$, tal que \textit{x} $\geq$ a.
+
+    \end{enumerate}
+\end{enumerate}
+
+    \subsection{Completude do $\mathbb{R}$ }
+    
+
+
+
+
+\newpage
+
+%% CAPÍTULO 2 %%
+
+\section{Espaços Métricos}
+
+
+
+
+
+\newpage
+
+%% CAPÍTULO 3 %%
+
+\section{Funções contínuas}
+
+
+
+
+
+
+
+
+\newpage
+
+%% CAPÍTULO 4 %%
+
+\section{Sequências de Cauchy}
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+%% CAPÍTULO 5 %%
+
+\section{Conexidade}
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+%% CAPÍTULO 6 %%
+
+\section{Compacidade}
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+%% CAPÍTULO 7 %%
+
+\section{Sequências de funções}
+
+
+
+
+\newpage
+
+%% Referências %%
+
+\section{Referências}
+
+\end{document}
