@@ -49,11 +49,11 @@
         \hspace{300pt}
         \LARGE{\textbf{Introdução á Análise}}
         \vfill
-        \large{Autor: Amadeus Dal Vesco} \\
+        \large{Aluno-Autor: Amadeus Dal Vesco} \\
         \hspace{300pt}
-        \\ \large{Professor: Camilo Campana}
+        \\ \large{Professor responsável pelo curso: Camilo Campana}
         \vfill
-        \LARGE{09 de Janeiro á 09 de Fevereiro, 2024}
+        \LARGE{09 de Janeiro à 09 de Fevereiro, 2024}
     \end{flushright}
 \end{titlepage}
 
@@ -65,7 +65,7 @@
             \textbf{Motivação}
     \end{center}
 
-Bom, a minha motivação por trás deste documento que contém as notas de aula da Escola de Verão de Matemática da UFSC, acerca do curso: Introdução á Análise, é simplesmente...
+Bom, a minha motivação por trás destas notas de aula da escola de verão da matemática da UFSC, acerca do curso de introdução á análise, envolve meu interesse puro em estudar matemática, conhecer seus fundamentos e seus princípios, e escrever documentos com uma estrutura mais adequada para o meio acadêmico, para o meio científico. Com isto em vista, vi a oportunidade perfeita em desenvolver estas notas de aula que me ajudarão extensivamente no quesito de organizar, estruturar e sofisticar todos os elementos presentes em um texto acadêmico.
 
 
 \newpage
@@ -75,6 +75,15 @@ Bom, a minha motivação por trás deste documento que contém as notas de aula 
 \tableofcontents
 \listoftables
 \listoffigures
+
+
+\newpage
+
+%% Introdução %%
+
+\begin{center}
+    \textbf{Introdução}
+\end{center}
 
 
 
@@ -94,18 +103,44 @@ Primeiramente, temos que definir a nossa região de domínio.
 Com isso, agora podemar começar a definir o que são supremos e ínfimos:
 
     \begin{enumerate}
-        \item Diz-se que \textit{x} é limitado superiormente se existe b $\in \mathbb{R}$, tal que \textit{x} $\leq$ b, $\forall$ \textit{x} $\in$ X.
+        \item Diz-se que \textit{x} é limitado superiormente se existe b $\in \mathbb{R}$, tal que \textit{x} $\leq$ b, $\forall$ \textit{x} $\in$ X. \vspace{0.5cm}
 
     \textbf{Exemplo 1:} X = $(-\infty, 0] \ \bigcup \ \{1,2,3\}$; $b=4$ é cota superior.
-
+    \vspace{0.25cm}
+    
     \textbf{Exemplo 1.1:} X = $[0, + \infty)$. Não existe cota superior para este conjunto, pois X não pode ser limitado superiormente por nenhum elemento b $\in \mathbb{R}$, tal que \textit{x} $\leq$ b.
 
-Com isto, somos capazes de construir uma ideia análoga como de uma limitação inferior.
+Com isto, somos capazes de construir uma ideia análoga, a da limitação inferior.
 
-    \item X $\subset \ \mathbb{R}$, X $\neq \emptyset$ e é limitado inferiormente se $\exists$ a $\in \mathbb{R}$, tal que \textit{x} $\geq$ a.
+    \item X $\subset \ \mathbb{R}$, X $\neq \emptyset$ e é limitado inferiormente se $\exists$ a $\in \mathbb{R}$, tal que \textit{x} $\geq$ a, onde \textit{x} $\in$ X e a é chamado de cota inferior.
 
+    \item X $\subset \mathbb{R}$, X $\neq \emptyset$ e será limitado se $\exists$ a, b $\in \mathbb{R}$ tais que X $\subset$ [a,b]. 
+    \vspace{0.5cm}
+
+    \textbf{Definição:} X $\subset \mathbb{R}$, X $\neq \emptyset$ e limitado superiormente, isto é, $\exists$ b tal que \textit{x} $\leq$ b. Um b $\in \mathbb{R}$ é \textit{sup} de X, escreveremos b = \textit{sup} X. Se b é o menor das cotas superiores, então b satisfaz as propriedades S1, S2, S2', S2''.
+    \vspace{0.25cm}
+
+    \begin{enumerate}
+        \item \textit{x} $\leq$ b, $\forall \ \textit{x} \in$ X. (S1)
+    \vspace{0.25cm}
+
+        \item Se $\exists$ c $\in \mathbb{R}$, tal que \textit{x} $\leq$ c, $\forall \ \textit{x} \in$ X, então b $\leq$ c. (S2)
+    \vspace{0.25cm}
+
+        %\item Se c < b, $\exists \textit{x_[0]} \in$ X, tal que $\textit{x_[0]} \ >$ c.
+    \vspace{0.25cm}
+
+    \textbf{OBS:} A condição \textbf{(S2)} pode ser reformulada da seguinte maneira:
+
+        \item $\forall \ \epsilon \geq 0$, $\exists \ \textit{x} = x(\epsilon) \in$ X tal que \textit{x} $\geq$ b - $\epsilon$. (S2'')
+    \end{enumerate}
+
+    Analogamente,
+
+    
     \end{enumerate}
 \end{enumerate}
+
 
     \subsection{Completude do $\mathbb{R}$ }
     
@@ -197,5 +232,9 @@ Com isto, somos capazes de construir uma ideia análoga como de uma limitação 
 %% Referências %%
 
 \section{Referências}
+
+
+
+
 
 \end{document}
